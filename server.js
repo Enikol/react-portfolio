@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/public'));
 
 
 app.get('*', function (req, res) {
-  res.sendFile('C:/Project/Portfolio/index.html');
+  res.sendFile('/index.html');
 });
 /*app.get('/resume', function(req, res){
 
