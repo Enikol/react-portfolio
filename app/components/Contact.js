@@ -60,7 +60,7 @@ class Contact extends React.Component{
        >
        <FontAwesome
      name='paper-plane'
-   /> Contact Me
+   /> Hire Me
        </Button>
 
        <Modal show={this.state.showModal} onHide={this.close}>

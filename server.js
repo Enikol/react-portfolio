@@ -23,14 +23,14 @@ app.get('*', function (req, res) {
 });*/
 app.post('/contactus', function (req, res) {
   var transporter = nodemailer.createTransport({
-      service: 'Gmail',
+      service: 'Yandex',
       auth: {
-          user: 'enikolaenko330@gmail.com', // Your email id
-          pass: 'Evangelion1234' // Your password
+          user: process.env.EMAIL, // Your email id
+          pass: process.env.PASSWORD // Your password
       }
   });
   var mailOptions = {
-    from: 'enikolaenko330@gmail.com', // sender address
+    from: process.env.EMAIL, // sender address
     to: 'enikolaenko330@gmail.com', // list of receivers
     subject: 'Contact through website', // Subject line
     text: `Name: ${req.body.name}
