@@ -11,7 +11,7 @@ import { Image, Col, Row } from 'react-bootstrap';
     render() {
         return (
         <Row>
-        <Col sm={6} md={4} className='frontend-col col-one'>
+        <Col sm={6} md={4} >
         <div className='img_wrap'>
          <a href="https://codepen.io/enk/full/PWedvY/" target='_blank'><Image responsive className='img__' alt="Random quote machine" src="/frontend/randquote.jpg" /></a>
          <div  className='img_description'><p> Random quote machine </p></div>
@@ -30,7 +30,7 @@ import { Image, Col, Row } from 'react-bootstrap';
           </div>
 
          </Col>
-         <Col sm={6} md={4}  className='frontend-col'>
+         <Col sm={6} md={4} >
          <div className='img_wrap center-block'>
           <a href="https://codepen.io/enk/full/YNjGGr" target='_blank'><Image responsive className='img__' alt="React Pomodoro Clock" src="/frontend/pomodoro.jpg" /></a>
           <div  className='img_description'><p> React Pomodoro Clock </p></div>
@@ -49,7 +49,7 @@ import { Image, Col, Row } from 'react-bootstrap';
           <div  className='img_description'><p> Mockup Survey Form </p></div>
          </div>
          </Col>
-         <Col sm={6} md={4} className='frontend-col'>
+         <Col sm={6} md={4} >
          <div className='img_wrap'>
           <a href="https://codepen.io/enk/full/oBrmeP/" target='_blank'><Image responsive className='img__' alt="Treemap Diagram" src="/frontend/treemap.jpg" /></a>
           <div  className='img_description'><p> D3.js Treemap Diagram </p></div>
