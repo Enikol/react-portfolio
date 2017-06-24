@@ -16,7 +16,7 @@ class About extends React.Component{
         <div id='profile' className='section'>
         <label>About me </label>
         <p> I am a web developer based in Moscow, Russia. I am currently working towards <a href="https://www.freecodecamp.com" target="_blank">freeCodeCamp</a> full-stack developer cetificate, contributing to <a href='https://github.com/Enikol?tab=repositories'> open source </a> and looking for remote job opportunities. If you happen to have one, be sure to check out my portfolio!</p>
-        
+
         </div>
 
         <div className='section'>
@@ -34,7 +34,7 @@ class About extends React.Component{
         </div>
 
         <div id='icons' className='section'>
-        <label> Contact me </label>
+        <div><label> Contact me </label></div>
         <div className='little-box'><a href="https://github.com/Enikol" target="_blank" className='socialIcon'><img src="/github-10-24.png"/></a>
         <a href="https://ru.linkedin.com/in/екатерина-николаенко-10739912b" target="_blank" className='socialIcon'><img src="/linkedin-4-24-blue.png"/></a>
         <a href="https://codepen.io/enk/" target="_blank" className='socialIcon'><img src="/codepen.png"/></a></div>

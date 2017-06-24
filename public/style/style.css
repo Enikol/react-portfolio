@@ -167,6 +167,9 @@ header{
   margin: 2vh;
   text-align: left;
 }
+#profile > a {
+  color: #f04949;
+}
 #icons{
   display: flex;
   flex-direction: column;
