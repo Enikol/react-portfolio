@@ -63,7 +63,7 @@ class Form extends React.Component{
            <FormControl
            type="email"
             value={this.state.email}
-            placeholder="Enter your enail"
+            placeholder="Enter your email"
             onChange={this.handleEmailChange} />
         <p className={'help'}>Must be a valid email address, otherwise I may not be able to contact you.</p>
          </FormGroup>

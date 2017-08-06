@@ -13,35 +13,9 @@ const app = express();
 
 
 app.use(express.static(__dirname + '/public'));
-/*function renderHTML(componentHTML) {
-  return `
-    <!DOCTYPE html>
-      <html>
-      <head>
-          <meta charset="utf-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Portofolio</title>
-          <link rel="stylesheet" href="/style/style.css">
-      </head>
-      <body>
-        <div id="react-view">${componentHTML}</div>
-        <script type="application/javascript" src="/bundle.js"></script>
-      </body>
-    </html>
-  `;
-} */
 
 app.get('*', function (req, res) {
-  /*const location = createLocation(req.url);
 
-  match({ routes, location }, (err, redirectLocation, renderProps) => {
-
-  if(!renderProps)
-      return res.status(404).end('Not found');
-
-
-    const componentHTML = React.renderToString(React.createElement(RoutingContext, renderProps));
-    res.status(200).end(renderHTML(componentHTML));*/
   res.sendFile('C:/Project/Portfolio/index.html');
 });
 

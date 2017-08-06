@@ -16,7 +16,7 @@ class HomePage extends React.Component{
             <div id="info">
             <h1> Ekaterina Nikolaenko </h1>
             <h2> Web developer </h2>
-            <p className='txt'> Hi! My name is Kate and I build apps. Please, hire me. </p>
+            <p className='txt'> Hi! My name is Kate and I love building powerful web apps that solve real problems. </p>
             <Contact />
             </div>
             </div>

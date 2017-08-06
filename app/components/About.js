@@ -15,7 +15,9 @@ class About extends React.Component{
 
         <div id='profile' className='section'>
         <label>About me </label>
-        <p> I am a web developer based in Moscow, Russia. I am currently working towards <a href="https://www.freecodecamp.com" target="_blank">freeCodeCamp</a> full-stack developer cetificate, contributing to <a href='https://github.com/Enikol?tab=repositories'> open source </a> and looking for remote job opportunities. If you happen to have one, be sure to check out my portfolio!</p>
+        <p> I am a front-end developer based in Moscow, Russia. I am a <a href="https://www.freecodecamp.com" target="_blank">freeCodeCamp</a> student,
+        currently working at <a href="https://uchi.ru/" target="_blank">UCHi.RU</a> and
+        contributing to <a href='https://github.com/Enikol?tab=repositories'> open source </a>. </p>
 
         </div>
 

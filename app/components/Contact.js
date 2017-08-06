@@ -79,23 +79,3 @@ class Contact extends React.Component{
 
 
 export default Contact;
-/*<form action="mailto:enikolaenko330@gmail.com?subject=contact_through_website" enctype="text/plain" onsubmit="location.href='thanks.html';">
-<FieldGroup
-id="formName"
-type="text"
-label="Your name"
-placeholder="Enter your name"
-/>
- <FieldGroup
- id="formEmail"
- type="email"
- label="Your email address"
- placeholder="Enter your email"
- />
- <FormGroup controlId="formTextarea">
- <FormControl componentClass="textarea" />
- </FormGroup>
-<Button type="submit">
-  Submit
-</Button>
-</form>*/

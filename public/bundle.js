@@ -25829,7 +25829,7 @@
 	        null,
 	        _react2.default.createElement(
 	          _reactBootstrap.Col,
-	          { sm: 6, md: 4, className: 'frontend-col col-one' },
+	          { sm: 6, md: 4 },
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'img_wrap' },
@@ -25905,7 +25905,7 @@
 	        ),
 	        _react2.default.createElement(
 	          _reactBootstrap.Col,
-	          { sm: 6, md: 4, className: 'frontend-col' },
+	          { sm: 6, md: 4 },
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'img_wrap center-block' },
@@ -25981,7 +25981,7 @@
 	        ),
 	        _react2.default.createElement(
 	          _reactBootstrap.Col,
-	          { sm: 6, md: 4, className: 'frontend-col' },
+	          { sm: 6, md: 4 },
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'img_wrap' },
@@ -56468,9 +56468,13 @@
 	                                        'div',
 	                                        { id: 'icons', className: 'section' },
 	                                        _react2.default.createElement(
-	                                                'label',
+	                                                'div',
 	                                                null,
-	                                                ' Contact me '
+	                                                _react2.default.createElement(
+	                                                        'label',
+	                                                        null,
+	                                                        ' Contact me '
+	                                                )
 	                                        ),
 	                                        _react2.default.createElement(
 	                                                'div',
